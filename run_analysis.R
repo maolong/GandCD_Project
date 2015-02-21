@@ -69,6 +69,5 @@
 #POINT 5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
   dataTidy2 <- aggregate(dataTidy$value,by=list(dataTidy$subject,dataTidy$activityName,dataTidy$measureName),FUN=mean)
   setnames(dataTidy2,new=names(dataTidy),old=names(dataTidy2))
-  setkey(datamerged,subject,activityName)
   dataTidy2 <- dataTidy2[order(dataTidy2$subject, dataTidy2$activityName,dataTidy2$measureName),]
   write.table(dataTidy2,file="project.txt", row.name=FALSE)
