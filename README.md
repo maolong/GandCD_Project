@@ -23,9 +23,9 @@ Data are stored on local directory called <B>UCI HAR Dataset</B> under your work
 In R studio the following packages are assumed installed: <B>data.table</B> and <B>reshape2</B>. Please check them and install if not available in your R Studio.
 <br>
 #Run Analysis
-Copy the script run_analysis.R in your local directory<br>
 Check prerequisites<br>
-Load run_analysis.R in R Studio<br>
+Make sure the folder "UCI HAR Dataset" and the run_analysis.R script are both in the current working directory.<br>
+Load run_analysis.R in R Studio (using source command)<br>
 Run the script
 <br>
 #Result
