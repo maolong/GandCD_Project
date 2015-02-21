@@ -29,5 +29,5 @@ Load run_analysis.R in R Studio (using source command)<br>
 Run the script
 <br>
 #Result
-The script create a file called <B>project.txt</B>, with write.table instruction, in your working directory.<br>
+The script create a file called <B>project.txt</B> in your working directory.<br>
 This file contains the tidy dataset
