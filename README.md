@@ -28,6 +28,7 @@ In R studio the following packages are assumed installed: <B>data.table</B> and 
 3. Load run_analysis.R in R Studio (using source command)<br>
 4. Run the script
 <br>
+
 #Result
 The script create a file called <B>project.txt</B> in your working directory.<br>
 This file contains the tidy dataset
